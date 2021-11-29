@@ -1,0 +1,121 @@
+  all_titles:
+    vela:
+        # The top 30 get unique titles (one per person, unless they are tied)
+        1: 424
+        2: 425
+        3: 426
+        4: 427
+        5: 428
+        6: 429 # "Master %login (6th)" -> "Sailing Master %login (6th)"
+        7: 430
+        8: 431
+        9: 432
+        10: 433
+        11: 434
+        12: 435
+        13: 436
+        14: 437
+        15: 438
+        16: 439
+        17: 440
+        18: 441
+        19: 442
+        20: 443
+        21: 444
+        22: 445
+        23: 446
+        24: 447
+        25: 448 # "Master's Mate %login (25th)" -> "Sailing Master's Mate %login (25th)"
+        26: 449
+        27: 450
+        28: 451
+        29: 452
+        30: 453
+        # Tiered Ranks (multiple people have the same title, ~20% of active coalition members)
+        31: 454
+        32: 455 # "Able Seaman %login (B)" -> "Able Sailor %login (B)"
+        33: 456 # "Ordinary Seaman %login (C)" -> # "Ordinary Sailor %login (C)"
+        34: 457
+        35: 458
+        # Inactive students have this title (people with 0 points, or that have the lowest rank)
+        36: 459
+    pyxis:
+        # Unique titles (one per person)
+        1: "Polaris %login (1st)"
+        2: "Ursa Major %login (2nd)"
+        3: "Ursa Minor %login (3rd)"
+        4: "Aries %login (4th)"
+        5: "Taurus %login (5th)"
+        6: "Gemini %login (6th)"
+        7: "Karkinos %login (7th)"
+        8: "Leo %login (8th)"
+        9: "Virgo %login (9th)"
+        10: "Libra %login (10th)"
+        11: "Scorpio %login (11th)"
+        12: "Sagittarius %login (12th)"
+        13: "Capricorn %login (13th)"
+        14: "Aquarius %login (14th)"
+        15: "Pisces %login (15th)"
+        16: "Ophiuchus %login (16th)"
+        17: "Corona Australis %login (17th)"
+        18: "Corona Borealis %login (18th)"
+        19: "Andromeda %login (19th)"
+        20: "Centauri %login (20th)"
+        21: "Cassiopeia %login (21st)"
+        22: "Cygnus %login (22nd)"
+        23: "Draco %login (23rd)"
+        24: "Hercules %login (24th)"
+        25: "Hydra %login (25th)"
+        26: "Lupus %login (26th)"
+        27: "Lyra %login (27th)"
+        28: "Orion %login (28th)"
+        29: "Pegasus %login (29th)"
+        30: "Serpens %login (30th)"
+        # Tiered Ranks (multiple people have the same title, ~20% of active coalition members)
+        31: "Aquila %login (A)"
+        32: "Boötes %login (B)"
+        33: "Corvus %login (C)"
+        34: "Delphinus %login (D)"
+        35: "Equuleus %login (E)"
+        # Inactive students have this title (people with 0 points, or that have the lowest rank)
+        36: "Fornax %login (F)"
+    cetus:
+        # Unique titles (one per person)
+        1: "%login, the true Cetus (1st)"
+        2: "Leviathan %login (2nd)"
+        3: "Kraken %login (3rd)"
+        4: "%login, the World-bearing Turtle (4th)"
+        5: "Tiamat %login (5th)"
+        6: "Nessie %login (6th)"
+        7: "Moby '%login' Dick (7th)"
+        8: "Umibozu %login (8th)"
+        9: "Scylla %login (9th)"
+        10: "%login Willy, the free (10th)"
+        11: "Charybdis %login (11th)"
+        12: "%login, The Magrathean whale (12th)"
+        13: "Yu-Kiang %login (13th)"
+        14: "Makara %login(14th)"
+        15: "Hydra %login (15th)"
+        16: "Lion Turtle %login (16th)"
+        17: "Megalodon %login (17th)"
+        18: "The Terrible Dogfish %login (18th)"
+        19: "Akhlut %login (19th)"
+        20: "Lusca %login (20th)"
+        21: "Cecaelia %login (21st)"
+        22: "Panlong %login (22nd)"
+        23: "Siren %login (23rd)"
+        24: "Selkie %login (24th)"
+        25: "Nereid %login (25th)"
+        26: "Rusalka %login (26th)"
+        27: "Kappa %login (27th)"
+        28: "Kelpie %login (28th)"
+        29: "Grindylow %login (29th)"
+        30: "Pearl '%login' Krabs (30th)"
+        # Tiered Ranks (multiple people have the same title, ~20% of active coalition members)
+        31: "Blue Whale %login (A)"
+        32: "Killer Whale %login (B)"
+        33: "Narwhal %login (C)"
+        34: "Bottlenose Dolphin %login (D)"
+        35: "Manatee %login (E)"
+        # Inactive students have this title (people with 0 points, or that have the lowest rank)
+        36: "Bottom-feeder %login (F)"
