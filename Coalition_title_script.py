@@ -8,6 +8,7 @@ from Helsinki_42API_interface import ic
 campus_id = 14
 staff_privileges = 0
 print_summary = 1
+print_at_codam = 1
 vela_coalition_id = 60
 # Vela title IDs = 424-459
 cetus_coalition_id = 59
@@ -36,8 +37,13 @@ def give_coalition_titles(coalition_id):
     # as it makes a separate API call to fetch the login names of all un-anonymised Codam students.
     if print_summary == 1:
         student_rank_info = append_login_names(student_rank_info)
-        for entry in student_rank_info:
-            print(entry)
+        if print_at_codam == 0:
+            for entry in student_rank_info:
+                print(entry)
+        if print_at_codam == 1:
+            for entry in student_rank_info:
+                if entry[5] != None:
+                    print(entry)
 
 
 def make_title_id_array(coalition_id):
@@ -123,7 +129,7 @@ def append_equipped_titles(student_rank_info, titles):
             if user['selected'] == True:
                 for student in student_rank_info:
                     if student[0] == user['user_id']:
-                        student[2] = student[2] + str(user['title_id'])
+                        student[2] = student[2] + str(user['title_id'] - 423)
                         equipped_titles += 1
     print("Coalition titles equipped: " + str(equipped_titles))
     return student_rank_info
