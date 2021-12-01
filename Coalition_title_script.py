@@ -116,6 +116,7 @@ def append_login_names(student_rank_info):
 
 
 def append_equipped_titles(student_rank_info, titles):
+    equipped_titles = 0
     for title_id in titles:
         title_owners = get_ids_of_students_with_title(title_id)
         for user in title_owners:
@@ -123,6 +124,8 @@ def append_equipped_titles(student_rank_info, titles):
                 for student in student_rank_info:
                     if student[0] == user['user_id']:
                         student[2] = student[2] + str(user['title_id'])
+                        equipped_titles += 1
+    print("Coalition titles equipped: " + str(equipped_titles))
     return student_rank_info
 
 def get_ids_of_students_with_title(title_id):
