@@ -8,7 +8,7 @@ from Helsinki_42API_interface import ic
 campus_id = 14
 staff_privileges = 0
 print_summary = 1
-print_at_codam = 1
+print_at_codam = 0
 vela_coalition_id = 60
 # Vela title IDs = 424-459
 cetus_coalition_id = 59
